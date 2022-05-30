@@ -106,6 +106,7 @@ When spring boot find the thymeleaf starter dependency in class path then <br>
 ![image](https://user-images.githubusercontent.com/6234135/170925293-c7eefe9c-9e9e-420e-a2b0-6be97b413cb9.png) <br>
 Add data manually to the mySQL database <br>
 ![image](https://user-images.githubusercontent.com/6234135/170925579-00133fe7-2f76-442d-b0b1-8e7253b2f4ba.png) <br>
+![image](https://user-images.githubusercontent.com/6234135/170927166-f9410494-aa38-4527-972a-acac4ea3586d.png) <br>
 
 
 
