@@ -35,22 +35,6 @@ Basically the response contains a meta-data links that navigate to to other data
 ![image](https://user-images.githubusercontent.com/6234135/170907151-8e6b5d1d-2d6e-4ca0-a942-f480bb83b5c7.png) <br>
 ![image](https://user-images.githubusercontent.com/6234135/170907245-f83ad3f3-42a1-4982-bb90-53f98d087210.png) <br>
 
-
-
-**spring-boot-thymeleaf-1 : Spring Boot Thymeleaf Hello World Example Tutorial** <br>
-
-![image](https://user-images.githubusercontent.com/6234135/170919512-31d64324-115a-442b-8f1f-25b1b7e6c320.png) <br>
-![image](https://user-images.githubusercontent.com/6234135/170919537-f43df9a5-4e26-4eb6-a0f4-3d1a736540db.png) <br>
-![Uploading image.png…]() <br>
-
-
-
-
-
-
-
-
-
 http://localhost:8080/users <br>
 
 HATEOS format <br>
@@ -98,6 +82,12 @@ REST API for Query Methods <br>
 ![image](https://user-images.githubusercontent.com/6234135/170915310-17963777-d06f-4950-a018-224b29a66b09.png) <br>
 
 
+
+**spring-boot-thymeleaf-1 : Spring Boot Thymeleaf Hello World Example Tutorial** <br>
+
+![image](https://user-images.githubusercontent.com/6234135/170919512-31d64324-115a-442b-8f1f-25b1b7e6c320.png) <br>
+![image](https://user-images.githubusercontent.com/6234135/170919537-f43df9a5-4e26-4eb6-a0f4-3d1a736540db.png) <br>
+![Uploading image.png…]() <br>
 
 
 
