@@ -91,6 +91,20 @@ REST API for Query Methods <br>
 
 
 **spring-boot-thymeleaf-part-1 : Spring Boot Thymeleaf CRUD Database Real-Time Project - PART 1** <br>
+![image](https://user-images.githubusercontent.com/6234135/170921048-d979a9ee-6164-40fc-93fd-0e6c26d569ae.png) <br>
+![image](https://user-images.githubusercontent.com/6234135/170921091-7cf716fb-d355-4add-aeca-e5be5a950a17.png) <br>
+![image](https://user-images.githubusercontent.com/6234135/170921136-edf40442-856d-4a34-9252-eea139d44180.png) <br>
+![image](https://user-images.githubusercontent.com/6234135/170921187-cd6d911a-b814-4b13-a0f4-159a9b607c82.png) <br>
+![image](https://user-images.githubusercontent.com/6234135/170921261-500af395-20e2-46c6-8987-fc886c995513.png) <br>
+
+![image](https://user-images.githubusercontent.com/6234135/170922260-1c961ed5-b995-49a6-b8f9-b2810f298885.png) <br>
+
+
+
+
+
+
+
 
 
 
