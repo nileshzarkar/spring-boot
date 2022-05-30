@@ -96,8 +96,19 @@ REST API for Query Methods <br>
 ![image](https://user-images.githubusercontent.com/6234135/170921136-edf40442-856d-4a34-9252-eea139d44180.png) <br>
 ![image](https://user-images.githubusercontent.com/6234135/170921187-cd6d911a-b814-4b13-a0f4-159a9b607c82.png) <br>
 ![image](https://user-images.githubusercontent.com/6234135/170921261-500af395-20e2-46c6-8987-fc886c995513.png) <br>
-
 ![image](https://user-images.githubusercontent.com/6234135/170922260-1c961ed5-b995-49a6-b8f9-b2810f298885.png) <br>
+
+
+**spring-boot-thymeleaf-part-2 : Spring Boot Thymeleaf CRUD Database Real-Time Project - PART 2** <br>
+When spring boot find the thymeleaf starter dependency in class path then <br> 
+![image](https://user-images.githubusercontent.com/6234135/170923487-199af66e-898e-420e-8132-c24c4908dc99.png) <br>
+![image](https://user-images.githubusercontent.com/6234135/170925197-b412623b-7753-4ef4-9f67-acaea6bdb7d6.png) <br>
+![image](https://user-images.githubusercontent.com/6234135/170925293-c7eefe9c-9e9e-420e-a2b0-6be97b413cb9.png) <br>
+Add data manually to the mySQL database <br>
+![image](https://user-images.githubusercontent.com/6234135/170925579-00133fe7-2f76-442d-b0b1-8e7253b2f4ba.png) <br>
+
+
+
 
 
 
