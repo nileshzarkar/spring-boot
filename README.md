@@ -1,10 +1,10 @@
-**Spring Boot Tutorial**
+**Spring Boot Tutorial** <br>
 Reference: https://www.youtube.com/playlist?list=PLGRDMO4rOGcNSBOJOlrgQqGpIgo6_VZgR <br>
 
 **video2 : Spring Data REST model Tutorial** <br>
 <dependency> <br>
-			<groupId>org.springframework.boot</groupId> <br>
-			<artifactId>spring-boot-starter-data-rest</artifactId> <br>
+			"<groupId/>org.springframework.boot</groupId/>" <br>
+			"<artifactId/>spring-boot-starter-data-rest</artifactId/>" <br>
 </dependency> <br>
 The spring data rest model dependecy will scan all the models and creates rest endponits automatically for our models or entities in our application. <br>
 We dont have to write a rest API code for our entity/model in our project. <br> 
@@ -34,6 +34,71 @@ Basically the response contains a meta-data links that navigate to to other data
 
 ![image](https://user-images.githubusercontent.com/6234135/170907151-8e6b5d1d-2d6e-4ca0-a942-f480bb83b5c7.png) <br>
 ![image](https://user-images.githubusercontent.com/6234135/170907245-f83ad3f3-42a1-4982-bb90-53f98d087210.png) <br>
+
+http://localhost:8080/users <br>
+
+HATEOS format <br>
+![image](https://user-images.githubusercontent.com/6234135/170910373-23fccf44-132d-4a37-9b38-8d4e8291206d.png) <br>
+
+data for pagination as well <br> 
+![image](https://user-images.githubusercontent.com/6234135/170910552-52ed87bd-f379-4132-8de5-fb8ff2a8fc05.png) <br>
+
+POST REQUEST <br>
+![image](https://user-images.githubusercontent.com/6234135/170910907-2c9f5640-f4b3-479d-b7c4-2736ab66867a.png) <br>
+![image](https://user-images.githubusercontent.com/6234135/170910951-a71a1434-bad1-43dc-ba59-bcb0a53cc720.png) <br>
+
+PUT REQUEST <br>
+![image](https://user-images.githubusercontent.com/6234135/170911108-e69d3cde-ccf6-4bf5-9bd7-8978d762eb36.png) <br>
+![image](https://user-images.githubusercontent.com/6234135/170911128-50e548a1-e92e-4a1c-b73c-7c2739c5bd67.png) <br>
+
+DELETE REQUEST <br>
+![image](https://user-images.githubusercontent.com/6234135/170911214-e95dba30-bcd8-4eab-bd9a-7da6c3b7a91f.png) <br>
+![image](https://user-images.githubusercontent.com/6234135/170911241-053e9bf4-31eb-41c7-914b-3b91f54080c2.png) <br>
+
+Configuring Base Path for REST APIs <br>
+![image](https://user-images.githubusercontent.com/6234135/170912233-9328914c-b1ea-4b22-a7fb-50ee351bbf38.png) <br>
+![image](https://user-images.githubusercontent.com/6234135/170912217-96b8ec7a-8c83-4b88-82fe-22639f531d9b.png) <br>
+
+Change Path name using @RepositoryRestResource annotation <br>
+http://localhost:8080/api/v1/**users**/1 <br>
+Sometimes we do not want **users** rather client wants something else here say for exmaple **members**<br>
+http://localhost:8080/api/v1/**members**/1 <br>
+![image](https://user-images.githubusercontent.com/6234135/170912613-bde0e23a-8044-482f-99a1-2af8e433010b.png) <br>
+![image](https://user-images.githubusercontent.com/6234135/170912680-c95de417-ff1f-42c9-b9bd-146c89f34260.png) <br>
+
+Paginiation and Sorting Support<br>
+Paginiation <br>
+![image](https://user-images.githubusercontent.com/6234135/170913092-adc20729-df79-4e11-b3e6-ac9e08e434f7.png) <br>
+![image](https://user-images.githubusercontent.com/6234135/170913340-0232973a-ca75-4aee-a2b7-17f9ad070d0a.png) <br>
+![image](https://user-images.githubusercontent.com/6234135/170913368-4a6ba5d8-f0fe-4e6b-bf8b-750d66106db3.png) <br>
+![image](https://user-images.githubusercontent.com/6234135/170913442-07b74e80-9e9a-4efd-9613-0194109f6330.png) <br>
+![image](https://user-images.githubusercontent.com/6234135/170913569-046a05ed-12c9-411f-b5e4-5a62e10cc0be.png) <br>
+Sorting <br>
+![image](https://user-images.githubusercontent.com/6234135/170913700-4a87acd2-5763-4141-8be8-4e8e8bc01284.png) <br>
+![image](https://user-images.githubusercontent.com/6234135/170913933-7fb32f53-6e92-4496-853c-3b27ff72ab08.png) <br>
+
+REST API for Query Methods <br>
+![image](https://user-images.githubusercontent.com/6234135/170915381-f89805f9-03b0-46d1-99dc-c69e4cf41e65.png) <br>
+![image](https://user-images.githubusercontent.com/6234135/170915310-17963777-d06f-4950-a018-224b29a66b09.png) <br>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
