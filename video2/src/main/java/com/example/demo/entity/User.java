@@ -1,6 +1,7 @@
 package com.example.demo.entity;
 
 import lombok.AllArgsConstructor;
+import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
@@ -12,6 +13,8 @@ import javax.persistence.*;
 @Entity
 @Table(name = "users")
 // IF YOU DO NOT PROVIDE THIS ANNOTATION THE TABLE NAME WOULD BE THE CLASS NAME
+
+@Builder // THIS WILL CREATE A BUILDER PATTERN FOR THE USER ENTITY
 public class User {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
