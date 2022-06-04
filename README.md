@@ -108,6 +108,13 @@ Add data manually to the mySQL database <br>
 ![image](https://user-images.githubusercontent.com/6234135/170925579-00133fe7-2f76-442d-b0b1-8e7253b2f4ba.png) <br>
 ![image](https://user-images.githubusercontent.com/6234135/170928215-315319df-9611-4f4a-8e3a-24ec82d3642c.png) <br>
 
+**spring-boot-thymeleaf-part-3 : Spring Boot Thymeleaf CRUD Database Real-Time Project - PART 3** <br>
+Adding employee through UI <br>
+![image](https://user-images.githubusercontent.com/6234135/171993656-4559fd70-2105-4739-bc95-2c654f03bebc.png) <br>
+![image](https://user-images.githubusercontent.com/6234135/171993677-06a2e6d5-a403-4af6-a84c-53a3a50e4072.png) <br>
+![image](https://user-images.githubusercontent.com/6234135/171993690-cd4cbf1f-a5ed-4a7e-bffd-dcdb702ab397.png) <br>
+
+
 
 
 
