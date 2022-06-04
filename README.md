@@ -114,6 +114,11 @@ Adding employee through UI <br>
 ![image](https://user-images.githubusercontent.com/6234135/171993677-06a2e6d5-a403-4af6-a84c-53a3a50e4072.png) <br>
 ![image](https://user-images.githubusercontent.com/6234135/171993690-cd4cbf1f-a5ed-4a7e-bffd-dcdb702ab397.png) <br>
 
+**spring-boot-thymeleaf-part-4 : Spring Boot Thymeleaf CRUD Database Real-Time Project - PART 4** <br>
+Updating an employee through UI <br>
+![image](https://user-images.githubusercontent.com/6234135/171994883-0c4dbdcd-254a-48bb-b5dc-c5b6fbd99be4.png) <br>
+![image](https://user-images.githubusercontent.com/6234135/171994898-ce9ae0bb-7b76-429e-9d90-649b15aaadd4.png) <br>
+![image](https://user-images.githubusercontent.com/6234135/171994906-e535abd0-0279-44e3-8fce-df5569be6258.png) <br>
 
 
 
