@@ -128,6 +128,26 @@ Deleting an employee through UI <br>
 Adding Pagination to the list of employees <br>
 ![image](https://user-images.githubusercontent.com/6234135/172036479-70d3abc8-0147-481e-b5f7-04b8b2026934.png) <br>
 
+**spring-boot-thymeleaf-part-7 : Spring Boot Thymeleaf CRUD Database Real-Time Project - PART 7** <br>
+The Spring Data JPA provides PagingAndSortingRepository interface which supports spring and pagination. <br>
+@NoRepositoryBean <br>
+public interface PagingAndSortingRepository < T, ID > extends CrudRepository < T, ID > { <br>
+    Iterable < T > findAll(Sort sort); <br>
+    Page < T > findAll(Pageable pageable); <br>
+} <br>
+
+The users will be able to sort the employee's list by clicking on the column header of the table.  <br>
+First, create a Sort object like this: <br>
+Sort sort = Sort.by(“fieldName”).ascending(); <br>
+This will sort the result by fieldName in ascending order. fieldName must match a field name declared in the entity class. <br> 
+We can also sort by more than one field, for example: <br>
+Sort sort = Sort.by("fieldName1").ascending().and(Sort.by("fieldName2").descending()); <br>
+Then we pass the Sort object to create a Pageable as follows: <br>
+Pageable pageable = PageRequest.of(pageNum - 1, pageSize, sort); <br>
+
+![image](https://user-images.githubusercontent.com/6234135/172040660-05985880-5ffe-4728-923a-aa3d5d1ed064.png) <br>
+
+
 
 
 
