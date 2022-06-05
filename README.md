@@ -184,6 +184,41 @@ If we do not use spring boot we have to manually start the application context. 
 9. trigger the runners  <br>
    There are 2 types of runners ApplicationRunner and CommandlineRunner. We use these runners to run our logic only once during application start up. <br>
    
+**video6-spring-boot-auto-configuration**
+Spring Boot Auto-configuration:  <br>
+Spring Boot auto-configuration attempts to automatically configure your Spring application based on the jar dependencies that you have added.   <br>
+
+- All auto-configuration logic is implemented in spring-boot-autoconfigure.jar.   <br>
+- @ConditionalOnClass: This configuration is enabled only when these classes are available in the classpath.  <br>
+- @ConditionalOnMissingBean: This bean is configured only if there is no other bean configured with the same name. <br>
+
+![image](https://user-images.githubusercontent.com/6234135/172043785-5e98b14e-8ed8-464f-8576-c2148e8802d5.png) <br>
+Spring mvc hibernate CURD application (without springboot)
+![image](https://user-images.githubusercontent.com/6234135/172043910-8d7e3926-6e8c-47b8-9640-7fe6b1aaf8e1.png) <br>
+![image](https://user-images.githubusercontent.com/6234135/172043963-5c378138-5706-4b82-a933-8ae3af045141.png) <br>
+In this class AppContext, there are many beans that are created manually. If we use hibernate in our application we have to configure these 3 beans <br>  
+sessionFactory <br>
+dataSource <br>
+getTransactionManager <br>
+![image](https://user-images.githubusercontent.com/6234135/172044070-e2b70874-53a2-4848-8ee7-e7d8583b4d6d.png) <br>
+In this class WenMvcConfig, we have created bean for ViewResolver.  <br>
+![image](https://user-images.githubusercontent.com/6234135/172044136-583c3dd1-48fc-4551-bca6-a02f4ad8de50.png) <br>
+Here in this class we have configured DispatcherServlet <br>
+So when ever spring boot finds spring-mvc and hibernate dependency in its class path spring boot automatically auto configures these configuration. <br>
+
+To understand spring boot autoconfiguration we need to add below dependency <br> 
+<dependency> <br>
+	<groupId>org.springframework.boot</groupId> <br>
+	<artifactId>spring-boot-starter-web</artifactId> <br>
+</dependency> <br>
+add this property in application.properties <br>
+logging.level.org.spring.springframework=debug <br>
+
+Once you start the spring boot application this will show a lot of autoconfiguration done automatically <br>
+
+![image](https://user-images.githubusercontent.com/6234135/172045508-aaee12f7-a030-4970-9276-e11b1d1d46ed.png) <br>
+
+
 
 
 
