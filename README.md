@@ -124,6 +124,11 @@ Updating an employee through UI <br>
 Deleting an employee through UI <br>
 ![image](https://user-images.githubusercontent.com/6234135/171995301-7e0892a8-a020-4a04-b566-b91b5b59c054.png) <br>
 
+**spring-boot-thymeleaf-part-6 : Spring Boot Thymeleaf CRUD Database Real-Time Project - PART 6** <br>
+Adding Pagination to the list of employees <br>
+![image](https://user-images.githubusercontent.com/6234135/172036479-70d3abc8-0147-481e-b5f7-04b8b2026934.png) <br>
+
+
 
 
 
