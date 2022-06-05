@@ -120,6 +120,12 @@ Updating an employee through UI <br>
 ![image](https://user-images.githubusercontent.com/6234135/171994898-ce9ae0bb-7b76-429e-9d90-649b15aaadd4.png) <br>
 ![image](https://user-images.githubusercontent.com/6234135/171994906-e535abd0-0279-44e3-8fce-df5569be6258.png) <br>
 
+**spring-boot-thymeleaf-part-5 : Spring Boot Thymeleaf CRUD Database Real-Time Project - PART 5** <br>
+Deleting an employee through UI <br>
+![image](https://user-images.githubusercontent.com/6234135/171995301-7e0892a8-a020-4a04-b566-b91b5b59c054.png) <br>
+
+
+
 
 
 
