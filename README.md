@@ -148,12 +148,42 @@ Pageable pageable = PageRequest.of(pageNum - 1, pageSize, sort); <br>
 ![image](https://user-images.githubusercontent.com/6234135/172040660-05985880-5ffe-4728-923a-aa3d5d1ed064.png) <br>
 
 
+**Spring Boot Application Execution Process** <br>
+![image](https://user-images.githubusercontent.com/6234135/172041438-75aa1216-8488-42d5-9d6a-14aad3f93c40.png) <br>
+When we create a SB application using spring initializer, then by default Spring Initializer will add a class called as Spring Boot Entry Point class or <br>
+Application class and it contains a main method and internally main method makes a call to run method. <br>
+![image](https://user-images.githubusercontent.com/6234135/172041475-fe272331-d813-44d0-9e33-80a53fd2367b.png)
+When the run method is executed a lot of things happen behind the scene. <br>
 
+The annotation @SpringBootApplication is composed of these 3 annotations <br>
+![image](https://user-images.githubusercontent.com/6234135/172041738-c055ea15-a67e-4000-b3cc-d39a83941e2c.png) <br>
 
+@SpringBootConfiguration internally uses @Configuration annotation,
+![image](https://user-images.githubusercontent.com/6234135/172041762-48f16020-681a-46ec-a423-e26c160c7b14.png)
+The use of @Configuration is to create java based configuration. <br>
 
+@EnableAutoConfiguration is used to enable auto configuration. <br>
+@ComponentScan will scan the base packages + sub-packages.<br>
 
+Now we will see the run method and how its bootstraps the spring boot application. <br>
+run is a static method of class SpringApplication. There are many overloaded run method, so this run method internally creates SpringApplication object and again <br> 
+calls another run method.<br>
+This run method of SpringApplication class contains all logic to bootstrap the soring boot application.<br>
 
-
+1. run method will start a stopwatch to identify the time taken to start our application. <br>
+2. It will declare ConfigurableApplicationContext as null, it is initialized later. <br>
+3. It gets the listeners using the command line arguments and then start the listeners. <br>
+4. It then prepares the environment, env can be dev, prod, qa etc. by reading the application.properties file. <br>
+5. It then prints the Banner <br>
+6. Here then it creates the applicationcontext object based on the webApplicationType (SERVLET or REACTIVE) <br>
+   spring-boot-starter-web dependency creates the applicationContext of type SERVLET <br>
+   spring-boot-starter-web-flux dependency creates the applicationContext of type REACTIVE <br>
+8. stop the stopwatch <br>
+So spring boot internally starts the application context or creates the spring IOC container. <br>
+If we do not use spring boot we have to manually start the application context. <br>
+9. trigger the runners  <br>
+   There are 2 types of runners ApplicationRunner and CommandlineRunner. We use these runners to run our logic only once during application start up. <br>
+   
 
 
 
